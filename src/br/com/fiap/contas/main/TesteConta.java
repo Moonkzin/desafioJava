@@ -10,6 +10,7 @@ public class TesteConta {
         ContaCorrente CC = new ContaCorrente();
         ContaPoupanca CP = new ContaPoupanca();
 
+        CC.deposita(-5);
         System.out.println(CC.getTipo());
         System.out.println(CP.getTipo());
     }
